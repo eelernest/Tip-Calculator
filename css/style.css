@@ -1,0 +1,145 @@
+.container-fluid{
+    height: 100vh;
+    background-color:hsl(185, 41%, 84%);
+}
+.main{
+    height: auto;
+    background-color:hsl(185, 41%, 84%);
+}
+.ttt{
+    position: inherit;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ht{
+    width: 100px;
+    font-size: 1.8em;
+    font-family: Space Mono;
+    color:#577876;
+    letter-spacing: 10px;
+}
+.content{
+    background-color: white;
+    border-radius: 12px;
+}
+.left{
+    font-family: Space Mono;
+}
+.title{
+    color:#677875;
+    font-family: Space Mono;
+    margin-bottom: 5px;
+}
+.input-group{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+}
+.ico{
+    position: absolute;
+    top: 5px;
+    left: 12px;
+    width: 30px;
+    font-size: 1.2rem;
+    color:#577876;
+}
+.input-bill::placeholder {
+    font-size: 1.3em;
+    margin-right: 10px;
+    padding-left: 4px;
+    text-align: end;
+    color:#aec1c2;
+    font-family: Space Mono;
+    font-weight: 400;
+  }
+.input-bttn::placeholder{
+    padding-left: 4px;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: Space Mono;
+    color:#577876;
+}
+.input-bill{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color:hsl(189, 41%, 97%);
+    font-family: Space Mono;
+}
+.select-b{
+    font-family: Space Mono;
+    font-weight: 700;
+}
+.bttn{
+    background-color: hsl(183, 100%, 15%);
+    font-size: 1.2rem;
+    color: white;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+}
+.bttn:hover{
+    background-color:#9fe8df;
+    color:hsl(183, 100%, 15%);
+    transition: all ease-out 0.25s;
+}
+.input-bttn{
+    text-align: center;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background-color:hsl(189, 41%, 97%);
+}
+#err{
+    margin-right: 9.9%;
+    height: 30px;
+    color: red;
+    font-size: 0.8rem;
+}
+.right{
+    font-family: Space Mono;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 12px;
+}
+.tr{
+    color: white;
+    font-size: 1.1rem;
+    font-family: Space Mono;
+}
+.tr-s{
+    color:hsl(184, 14%, 56%);
+    font-size: 1rem;
+    display: block;
+}
+.tt{
+    color:hsl(172, 67%, 45%);
+    font-size: 2.5rem;
+    font-family: Space Mono;
+    font-weight: 700;
+    margin-top: -8px;
+}
+.reset{
+    width: 100%;
+}
+.btn-reset{
+    width: 100%;
+    height: 35px;
+    margin-top: 20%;
+    background-color:hsl(172, 67%, 45%);
+    border-radius: 6px;
+    border: none;
+    color: hsl(183, 100%, 15%);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.btn-reset:hover{
+    background-color:#9fe8df;
+    color:hsl(183, 100%, 15%);
+    transition: all ease-in-out 0.3s;
+}
+.attribution{
+    background-color:hsl(185, 41%, 84%);
+}
+

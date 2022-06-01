@@ -1,0 +1,17 @@
+@media screen and (max-width:760px){
+    .ttt{
+        position: inherit;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: -4vh;
+    }
+    .pos{
+        position: inherit;
+    }
+    .ht{
+        width: auto;
+        font-size: 1rem;
+        letter-spacing: 10px;
+    }
+}
